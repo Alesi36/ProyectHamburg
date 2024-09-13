@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=+, initial-scale=1.0">
+    <title>Logistica Alesis</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="/ProyectHamburg/img-hamburg/icon-burg.png" type="image/png">
+</head>
+<body>
+    <a href="../ProyectHamburg/index.html">Inicio</a>
+    <form>
+        <h2>Formulario de contacto!</h2>
+
+        <fieldset>                              <!--Simple Inputs-->
+            <legend>Datos Personales</legend>
+            <div class="form-input">
+                <label>Nombre completo
+                    <input type="text" placeholder="Juan Castaños" required>
+                </label>
+            </div>
+    
+            <div class="form-input">
+                <label>Email
+                    <input type="email" placeholder="juan468@gmail.com" required>
+                </label>
+            </div>
+
+            <div class="form-input">
+                <label>ubicacion
+                    <input type="text" placeholder="Asunto de tu mensaje" required">
+                </label>
+        </fieldset>
+
+
+
+                                                <!--Select y option-->
+        <fieldset>
+            <legend>Info de preferencias</legend>
+            <div class="form-input">
+                <label>Anvorguesa preferida
+                    <select>
+                        <option value="burg1">cheddar</option>
+                        <option value="burg2">cheddar y bacon</option>
+                        <option value="burg3">cebolla caramel</option>
+                        <option value="burg4">cuarto de libra</option>
+                    </select>
+                </label>
+            </div>
+
+            <div class="form-input">
+                <label>Tipo de papas
+                    <select>
+                        <option value="pap1">fritas comunes</option>
+                        <option value="pap2">con cheddar</option>
+                        <option value="pap3">cheddar y bacon</option>
+                        <option value="pap4">cheddar, bacon y verdeo</option>
+                    </select>
+                </label>
+            </div>
+        </fieldset>
+
+
+
+
+        <div class="form-input"></div>
+            <label>Mensaje
+                <textarea rows="10" placeholder="Deja tu mensaje aqui.."id="mensaje"></textarea>
+            </label>
+        </div>
+
+        <div class="form-input">
+            <label>Acepto los terminos y condiciones del sitio.
+                <input  class="checkbox" type="checkbox">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
